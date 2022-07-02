@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    width: 33%;
+    border: 2px solid white;
+    border-radius: 50px;
+}
+
+.logo img:hover{
+    width: 38%;
+    border: 2px solid white;
+    border-radius: 10px;
+    transition: 0.5s ease;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+
+.nav-list{
+    width: 50%;
+    /*background-color: #000;*/
+    display: flex;
+    align-items: center;
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 26px 20px;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+
+}.nav-list li a:hover{
+    text-decoration: none;
+    color: gray;
+    border: 1px solid gray;
+    transition: 0.6s ease-out;
+    font-size: 25px;
+    border-bottom-right-radius: 10px;
+    border-left: none;
+    font-style: italic;
+}
+
+.rightNav{
+    /*background-color: blueviolet;*/
+    width: 50%;
+    text-align: right;
+    padding: 0 23px;
+}
+
+#search{
+    padding: 5px;
+    font-size: 17px;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 9px;
+}
+
+.srch{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.srch li{
+    list-style: none;
+    padding: 26px 20px;
+}
+
+.srch li a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+.srch li a:hover{
+    font-size: 13px;
+    color: gray;
+    background: white;
+    font-style: italic;
+    transition: 0.0s ease;
+    font-family: Arial;
+    border: 1px solid white;
+}
+
+.background{
+    background: rgba(0, 0, 0, 0.2) url('dew.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.firstSection{
+    height: 100vh;
+    font-family: 'Li Hasan Rongdhonu ANSI V1';
+}
+
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-family: 'Segoe Ui', Tahoma, Geneva, Verdina, sans-serif;
+    max-width: 50%;
+    margin: auto;
+    height: 70%;
+}
+
+.firstHalf{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.secondHalf{
+    width: 30%;
+}
+
+.secondHalf img{
+    width: 70%;
+    border: 4px solid white;
+    border-radius: 150px;
+    display: block;
+    margin: auto;
+}
+
+.text-big{
+    font-size: 50px;
+    text-align: center;
+    border: 2px solid white;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    border-top-left-radius: 20px;
+}
+
+.text-small{
+    font-size: 20px;
+    border: 2px solid white;
+    border-left: none;
+    border-top: none;
+    border-bottom-right-radius: 20px;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons li{
+    list-style: none;
+    padding: 26px 20px;
+}
+
+.buttons li a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    font-family: Arial;
+}
+
+.buttons li a:hover{
+    font-size: 20px;
+    color: gray;
+    font-style: italic;
+    transition: 0.4s ease;
+    font-family: Arial;
+    border: 2px solid white;
+    border-right: none;
+    border-top: none;
+    border-bottom-left-radius: 10px;
+}
+
+.products{
+    height: 200px;
+    width: 2px;
+    display: flex;
+    padding: right;
+}
+
+.section{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: skyblue;
+    border: 4px solid pink;
+    border-right: none;
+    border-top: none;
+    border-radius: 20px;
+    max-width: 80%;
+    margin: auto;
+    font-family: 'Goudy Stout';
+    font-size: 15px;
+}
+
+.lang{
+    font-family: 'Li Hasan Rongdhonu ANSI V1';
+    font-size: 15px;
+    style: Bold;
+}
+
+.section-left{
+    flex-direction: row-reverse;
+    background: pink;
+    border: 4px solid skyblue;
+    border-left: none;
+    border-bottom: none;
+    border-radius: 20px;
+}
+
+.paras{
+    padding: 0 65px;
+}
+
+.sectionSubTag{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdina, sans-serif;
+}
+
+.contact{
+    background-color: #f6fsf4;
+}
+1: 16: 45
